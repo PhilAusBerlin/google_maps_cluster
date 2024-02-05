@@ -1,0 +1,46 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  height: 100%;
+}
+#map .pTag {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 0 10px;
+  z-index: 1;
+}
+
+#map .pTag.highlight {
+  z-index: 999 !important;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.marker-cluster-small {
+  background-color: rgba(181, 226, 140, 0.6);
+  }
+  .marker-cluster-small div {
+  background-color: rgba(110, 204, 57, 0.6);
+  }
+  .marker-cluster-medium {
+  background-color: rgba(241, 211, 87, 0.6);
+  }
+  .marker-cluster-medium div {
+  background-color: rgba(240, 194, 12, 0.6);
+  }
+  .marker-cluster-large {
+  background-color: rgba(253, 156, 115, 0.6);
+  }
+  .marker-cluster-large div {
+  background-color: rgba(241, 128, 23, 0.6);
+  }
